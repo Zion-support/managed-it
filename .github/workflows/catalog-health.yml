@@ -20,11 +20,11 @@ jobs:
           set -euo pipefail
           html=$(curl -fsSL https://ziontechgroup.com/)
           must=(
-            # Current homepage strings — verified present 2026-09-24
+            # Current homepage strings — verified present 2026-09-26
             "Managed IT"
             "Agentes"
             "Discovery"
-            "Ferramentas"
+            "Tools"
             "FinOps"
             "app-network"
           )
